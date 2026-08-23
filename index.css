@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #28293D;
+}
+
+body, textarea {
+    font-family: 'Poppins', monospace;
+}
+
+#text {
+    resize: none;
+    width: 1242px;
+    height: 800px;
+    background-color: #1B1C27;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    padding: 32px 42px;
+    color: #BCBCBC;
+    font-size: 1.5rem;
+}
+
+#text::placeholder {
+    color: #BCBCBC;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 33px 99px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+    margin-top: 31px;
+}
+
+.text-info {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
